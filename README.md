@@ -4,4 +4,4 @@
 
 Check out the simulation [here](https://repl.it/@MichelleBryson/astronavsolarsaga)!
 
-![banner](images/banner.png)
+![banner](images/banner.PNG)
