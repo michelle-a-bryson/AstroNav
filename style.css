@@ -7,23 +7,29 @@ html, body{
 }
 
 ul {
-  font-size: 24px;
+  font-size: 18px;
   color: rgb(219, 219, 219);
   text-align: center;
   text-decoration: none;
   list-style-type: none;
   overflow: hidden;
   margin: 0;
+  padding-top: 20px;
 }
 
 li {
   float: left;
-  padding: 10px 38px;
+  padding: 8px 10px;
+  border: 1px solid  rgb(219, 219, 219);
+  border-radius: 14px; 
+  margin: 0 10px;
 }
 
 
 li:hover{
-  color: white;
+  border: 1px solid white;
+  background: white;
+  color:black;
   cursor: pointer;
 }
 
@@ -33,11 +39,10 @@ li a {
 
 .planet-facts {
   position: absolute;
-  top: 60px;
-  left: 60px;
-  width: 300px;
-  height: 200px;
-  padding: 10px;
+  top: 20px;
+  right: 30px;
+  width: 450px;
+  padding: 10px 20px;
   background: #fff;
   color: black;
   display: none;
@@ -47,4 +52,17 @@ li a {
 
 .planet-facts.popup {
   display: block;
+}
+
+tr{
+  padding: 20px 0;
+}
+
+th, td {
+  padding-right: 40px;
+  text-align: left;
+}
+
+td{
+  padding-bottom: 10px;
 }
