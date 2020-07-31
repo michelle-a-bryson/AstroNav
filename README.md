@@ -1,5 +1,7 @@
 # AstroNav
 
-educational solar system simulation and game
+### interactive educational 3D simulation of the solar system
 
-final project for the Computer Science Summer Institute at Google
+Check out the simulation [here](https://repl.it/@MichelleBryson/astronavsolarsaga)!
+
+![banner](images/banner.png)
